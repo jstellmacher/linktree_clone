@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 153, 246, 228;
+  --background-end-rgb: 217, 249, 157;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 55, 65, 81;
+    --background-end-rgb: 17, 24, 39;  
   }
 }
 
@@ -24,4 +24,45 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* !------------------------------------------------------------------------------------! */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 153, 246, 228;
+  --background-end-rgb: 217, 249, 157;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 55, 65, 81;
+    --background-end-rgb: 17, 24, 39;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    132deg,
+    rgb(125, 199, 144) 0.00%,
+    rgb(11, 59, 23) 100.00%
+  );
+  height: 100vh;
+  background-attachment: fixed;
+}
+/* !------------------------------------------------------------------------------------! */
+
+
+
+/* from-gray-900 to-gray-600  */
+/* linear-gradient(to right, rgb(153, 246, 228), rgb(217, 249, 157)) */
+/* linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0)) */
+
+/* body {
+  background: linear-gradient(132deg, rgb(125, 199, 144) 0.00%, rgb(11, 59, 23) 100.00%);
+  height: 100vh;
+  background-attachment: fixed;
+} */

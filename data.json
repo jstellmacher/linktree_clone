@@ -1,0 +1,45 @@
+{
+  "name": "Jai Stellmacher",
+  "avatar": "/headshot_no_bg.png",
+  "links": [
+    {
+      "title": "My Portfolio",
+      "href": "https://jais-porti.vercel.app/",
+      "image": "https://picsum.photos/201/"
+    },
+    {
+      "title": "Github",
+      "href": "https://github.com/jstellmacher",
+      "image": "https://picsum.photos/200/"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/jai_stellmacher/",
+      "image": "https://picsum.photos/200/201"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Youtube",
+      "href": "https://www.youtube.com/channel/UCekAXJzsDfLf_q7l6iXNQfw"
+    },
+    {
+      "title": "LinkedIn",
+      "href": "https://www.linkedin.com/in/jai-stellmacher/"
+    },
+    {
+      "title": "Github",
+      "href": "https://github.com/jstellmacher"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/jai_stellmacher/"
+    }
+  ],
+  "footer": [
+    {
+      "copyright": "Copyright © 2023 Jai Stellmacher",
+      "description": "This project is a cutting-edge demonstration of Next.js and React.js technologies, showcasing the development team's prowess in crafting dynamic and contemporary websites. Created by Jai Stellmacher, this link hub exemplifies a meticulous blend of technical expertise and a passion for staying ahead in the ever-evolving world of web development."
+    }
+  ]
+}
